@@ -20,7 +20,7 @@ public class Test1 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		
+		// Enter Details
 		driver.findElement(By.name("username")).sendKeys("venkat");
 		driver.findElement(By.name("password")).sendKeys("Venkat");
 		WebElement go=driver.findElement(By.id("rewards-login-go"));
