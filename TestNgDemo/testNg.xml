@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="suit" parallel="methods" thread-count="3">
+
+<listeners>
+<listener class-name="com.listeners.ListenersTestDemo"></listener>
+</listeners>
+
+	<!-- <test name="test1">
+		<classes>		
+			<class name="TestNgDemo.TestNgDemo.TestNgTest"></class>
+			
+		</classes>
+
+	</test> -->
+	
+	<test name="test2">
+	
+	
+		<classes>	
+			
+			<class name="TestNgDemo.TestNgDemo.TestNgTest2"></class>
+		</classes>
+
+	</test>
+	
+
+	
+</suite>
